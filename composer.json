@@ -1,5 +1,5 @@
 {
-    "name": "buzz/laravel-h-captcha",
+    "name": "buzz/laravel-h-captcha-example",
     "description": "hCaptcha for Laravel 5, Laravel 6 and Laravel 7",
     "keywords": [
         "h-captcha",
@@ -14,7 +14,7 @@
         "laravel 6",
         "laravel 7"
     ],
-    "homepage": "https://github.com/thinhbuzz/laravel-h-captcha",
+    "homepage": "https://github.com/thinhbuzz/laravel-h-captcha-example",
     "license": "MIT",
     "authors": [
         {
@@ -76,11 +76,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./packages/laravel-h-captcha"
-        }
-    ]
+    }
 }

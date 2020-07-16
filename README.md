@@ -23,8 +23,6 @@
 ```shell script
 # run composer install
 docker run --rm --interactive --tty --volume $PWD:/app composer install
-# clone laravel-h-captcha project
-git clone https://github.com/thinhbuzz/laravel-h-captcha packages/laravel-h-captcha
 # clone env file
 cp .env.example .env
 # generate key

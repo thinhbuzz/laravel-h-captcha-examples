@@ -26,7 +26,7 @@
 </form>
 <form method="post" id="form-2">
     @csrf
-    {!! app('captcha')->display() !!}
+    {!! app('captcha')->display([], ['sitekey' => env('CAPTCHA_SITEKEY2')]) !!}
     {{--    {!! app('captcha')->display([], ['multiple' => true]) !!}--}}
     <button type="submit">Submit</button>
 </form>
